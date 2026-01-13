@@ -37,7 +37,7 @@ rviz2
 
 In RViz:
 - Fixed frame: odom
-- Add TF, Odometry, Image, RobotModel
+- Add TF, Odometry (topic: `/odom`, Image (topic: `/aruco/image_annotated`), RobotModel (description source: topic, description topic: `/robot_description`)
 
 NOTES
 This project uses RViz only for visualization. No simulator is used.

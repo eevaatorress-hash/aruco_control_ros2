@@ -20,19 +20,19 @@ This project implements a simple visual servoing system using ArUco markers in R
 
 
 Terminal 1 (camera):
-source $HOME/ros2_ws/install/setup.bash
+source $HOME/ros2_ws/install/setup.bash;
 ros2 run image_tools cam2image -p device_id:=0
 
 Terminal 2 (ArUco control):
-source $HOME/ros2_ws/install/setup.bash
+source $HOME/ros2_ws/install/setup.bash;
 ros2 run aruco_final aruco_control_node
 
 Terminal 3 (cmd_vel to TF):
-source $HOME/ros2_ws/install/setup.bash
+source $HOME/ros2_ws/install/setup.bash;
 ros2 run aruco_final cmdvel_to_tf
 
 Terminal 4 (RViz):
-source $HOME/ros2_ws/install/setup.bash
+source $HOME/ros2_ws/install/setup.bash;
 rviz2
 
 In RViz:

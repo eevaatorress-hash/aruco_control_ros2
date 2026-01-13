@@ -20,7 +20,6 @@ This project implements a simple visual servoing system using ArUco markers in R
 
 
 Terminal 1 (camera):
-```bash
 source $HOME/ros2_ws/install/setup.bash
 ros2 run image_tools cam2image -p device_id:=0
 

@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor temp files 
+*.swp
+*.swo
+
+# ROS build folders
+build/
+install/
+log/

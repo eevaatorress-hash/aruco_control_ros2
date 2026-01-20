@@ -32,7 +32,8 @@ source $HOME/ros2_ws/install/setup.bash;
 ros2 run aruco_final cmdvel_to_tf
 
 Terminal 4 (robot):
-source $HOME/ros2_ws/install/setup.bash; ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(cat $HOME/ros2_ws/src/aruco_final/urdf/simple_bot.urdf)"
+source $HOME/ros2_ws/install/setup.bash; 
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(cat $HOME/ros2_ws/src/aruco_final/urdf/simple_bot.urdf)"
 
 Terminal 5 (RViz):
 source $HOME/ros2_ws/install/setup.bash;
